@@ -1,0 +1,23 @@
+---
+title: "Untitled"
+author: "ashad"
+date: "2025-01-29"
+output: html_document
+---
+
+```{r}
+head(mtcars)
+```
+data <- head(mtcars)
+max_value <- max(data$mpg)       
+min_value <- min(data$mpg)       
+mean_value <- mean(data$mpg)     
+median_value <- median(data$mpg) 
+
+
+mtcars_mutated <-mtcars %>%
+mutate(mpg_per_cylinder) = mgp / cyl
+
+head(mtcars_mutated)
+
+dish_hp <- new2
